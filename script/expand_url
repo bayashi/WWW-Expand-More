@@ -1,0 +1,13 @@
+#!perl
+use strict;
+use warnings;
+use WWW::Expand::More;
+
+my $url = shift @ARGV;
+
+if ( scalar(grep { $_ && $_ =~ /^[-]+?all$/ } @ARGV) ) {
+    print join("\n", WWW::Expand::More->expand_all($url));
+}
+else {
+    print WWW::Expand::More->expand($url)."\n";
+}

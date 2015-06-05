@@ -18,8 +18,9 @@ my $builder = Module::Build->new(
         'perl' => '5.008001',
         'strict' => 0,
         'warnings' => 0,
-        'Carp' => 0,
+        'Furl' => 0,
     },
+    script_files        => [ 'script/expand_url' ],
     add_to_cleanup      => [ 'WWW-Expand-More-*' ],
     meta_merge     => {
       resources => {
