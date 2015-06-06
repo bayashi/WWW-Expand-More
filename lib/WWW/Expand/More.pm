@@ -74,7 +74,7 @@ __END__
 
 =head1 NAME
 
-WWW::Expand::More - The expander for shorten URL
+WWW::Expand::More - The expander for a shortened URL
 
 
 =head1 SYNOPSIS
@@ -94,7 +94,7 @@ WWW::Expand::More - The expander for shorten URL
 
 =head1 DESCRIPTION
 
-WWW::Expand::More is the expander for shorten URL.
+WWW::Expand::More is the expander for a shortened URL.
 
 
 =head1 METHODS
