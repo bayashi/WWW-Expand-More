@@ -27,7 +27,8 @@ if ($ENV{AUTHOR_TEST} || $ENV{TRAVIS}) {
         'https://www.google.com/search?q=Perl',
     );
 }
-
-ok 1;
+else {
+    ok 1;
+}
 
 done_testing;
