@@ -4,7 +4,7 @@ use warnings;
 
 use Furl;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub _default_ua {
     my $args = shift;
