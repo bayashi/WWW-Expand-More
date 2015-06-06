@@ -36,7 +36,7 @@
    "provides" : {
       "WWW::Expand::More" : {
          "file" : "lib/WWW/Expand/More.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -55,5 +55,5 @@
          "web" : "http://webchat.freenode.net/?channels=%23bayadev"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
