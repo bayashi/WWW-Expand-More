@@ -81,12 +81,12 @@ WWW::Expand::More - The expander for shorten URL
 
     use WWW::Expand::More;
 
-    my $expanded_url  = WWW::Wxpand::More->expand('http://exsample.com/foo');
+    my $expanded_url  = WWW::Expand::More->expand('http://exsample.com/foo');
 
-    my @expanded_urls = WWW::Wxpand::More->expand_all('http://exsample.com/foo');
+    my @expanded_urls = WWW::Expand::More->expand_all('http://exsample.com/foo');
 
     # options
-    print WWW::Wxpand::More->expand('http://exsample.com/foo' => {
+    print WWW::Expand::More->expand('http://exsample.com/foo' => {
         timeout => 1,
         agent   => 'YourUA/1.0',
     });
@@ -117,6 +117,17 @@ The User Agent Object that needs to have compatiblity with an interface of L<Fur
 
 If you set true value on C<cache> option, then the expanded URL will cache.
 
+
+=head1 CLI COMMAND
+
+=head2 expand_url
+
+The cli command L<expand_url> has been included in this module's distribution.
+
+    $ expand_url http://bit.ly/1BPj30x
+    https://www.google.com/search?q=Perl
+
+You can use it in your terminal easily. See more detail L<expand_url>.
 
 =head1 REPOSITORY
 
