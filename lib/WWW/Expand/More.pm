@@ -81,12 +81,12 @@ WWW::Expand::More - The expander for shorten URL
 
     use WWW::Expand::More;
 
-    my $expanded_url  = WWW::Expand::More->expand('http://exsample.com/foo');
+    my $expanded_url  = WWW::Expand::More->expand('http://example.com/foo');
 
-    my @expanded_urls = WWW::Expand::More->expand_all('http://exsample.com/foo');
+    my @expanded_urls = WWW::Expand::More->expand_all('http://example.com/foo');
 
     # options
-    print WWW::Expand::More->expand('http://exsample.com/foo' => {
+    print WWW::Expand::More->expand('http://example.com/foo' => {
         timeout => 1,
         agent   => 'YourUA/1.0',
     });
