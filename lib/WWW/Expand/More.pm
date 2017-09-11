@@ -94,8 +94,7 @@ WWW::Expand::More - The expander for a shortened URL
 
 =head1 DESCRIPTION
 
-WWW::Expand::More is the expander for a shortened URL.
-
+WWW::Expand::More expands shortened URLs
 
 =head1 METHODS
 
@@ -107,7 +106,7 @@ WWW::Expand::More is the expander for a shortened URL.
 
 =head4 ua
 
-The User Agent Object that needs to have compatiblity with an interface of L<Furl>.
+A User Agent object that needs to be compatible with the interface of L<Furl>.
 
 =head4 timeout => $sec
 
@@ -115,10 +114,10 @@ The User Agent Object that needs to have compatiblity with an interface of L<Fur
 
 =head4 cache => boolean
 
-If you set true value on C<cache> option, then the expanded URL will cache.
+If you set a true value on the C<cache> option, then the expanded URL will be cached.
 
 
-=head1 CLI COMMAND
+=head1 COMMAND LINE
 
 =head2 expand_url
 
@@ -137,7 +136,7 @@ You can use it in your terminal easily. See more detail L<expand_url>.
 
 =end html
 
-WWW::Expand::More is hosted on github: L<http://github.com/bayashi/WWW-Expand-More>
+WWW::Expand::More is hosted on GitHub: L<http://github.com/bayashi/WWW-Expand-More>
 
 I appreciate any feedback :D
 
